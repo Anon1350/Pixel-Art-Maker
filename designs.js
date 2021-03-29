@@ -7,7 +7,7 @@ const tableWidth = document.querySelector('#inputWidth');
 const mainTable = document.createElement("TABLE");
 mainTable.setAttribute("id","gridCanvas");
 document.body.appendChild(mainTable);
-let blankCanvas = document.querySelector("#gridCanvas");
+const blankCanvas = document.querySelector("#gridCanvas");
 
 function makeGrid(event) {
     //These codes are for resetting the canvas after pressing the button again.
